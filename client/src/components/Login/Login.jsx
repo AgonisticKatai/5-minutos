@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-import TextField from 'material-ui/TextField'
-import RaisedButton from 'material-ui/RaisedButton'
+import { TextField, RaisedButton } from 'material-ui'
 
 import { login } from '../../services/AuthServices.js'
 import { saveToken } from '../../services/StorageServices.js'
